@@ -59,7 +59,6 @@ if __name__ == '__main__':
 	print("\nSorted array is ")
 	printList(arr)
 
-# This code is contributed by Mayank Khanna
 # Python program for implementation of MergeSort
 
 
