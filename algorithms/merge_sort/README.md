@@ -1,5 +1,5 @@
 Merge sort is a recursive algorithm that continuously splits the array in half until it cannot be further divided i.e, the array has only one element left (an array with one element is always sorted). Then the sorted subarrays are merged into one sorted array.
-This repo shows merge sort implementation in Python Java and C.
+This repo shows merge sort implementation in Python, C and Java.
 
 Merge sort is a sorting algorithm that works by dividing an array into smaller subarrays, sorting each subarray, and then merging the sorted subarrays back together to form the final sorted array. It is a stable sorting algorithm that maintains the relative order of equal elements in the input array. Merge sort has a worst-case time complexity of O(N logN), which means it performs well even on large datasets. 
 
