@@ -1,6 +1,6 @@
 
 """
-Exploratory Data Analysis (EDA) is an analytical approach that employs 
+Exploratory Data Analysis (EDA) is an analytical approach that employs
 visual techniques to examine and understand data. It plays a crucial
 role in uncovering trends, patterns, and relationships within the dataset,
 as well as validating assumptions through the use of statistical summaries
@@ -14,7 +14,7 @@ from basic_modules import df, np
 
 # Iterate through each column in the DataFrame
 for col in df.columns:
-    # Check if the data type of the column 
+    # Check if the data type of the column
     # is 'object' (typically categorical)
     if df[col].dtype == 'object':
         # Fill missing values in categorical columns
@@ -40,12 +40,12 @@ for col in df.columns:
     if df[col].dtype == float:
         # Add the column to the list of float columns
         floats.append(col)
-    
+
     # Check if the data type of the column is int
     elif df[col].dtype == int:
         # Add the column to the list of integer columns
         ints.append(col)
-    
+
     # If the data type is neither float nor int, assume it's an object
     else:
         # Add the column to the list of object columns
