@@ -50,7 +50,18 @@ for col in df.columns:
         objects.append(col)
 
 # Print the counts of columns for each data type
-print("Number of integer columns:", len(ints))
-print("Number of float columns:", len(floats))
-print("Number of object columns:", len(objects))
+# print("Number of integer columns:", len(ints))
+# print("Number of float columns:", len(floats))
+# print("Number of object columns:", len(objects))
+
+# Iterate through each column in the 'objects' list
+for col in objects:
+    # Print the column name and the number of unique values
+    print(f"{col} -> {df[col].nunique()}")
+
+    # Print the unique values in the column
+    print(df[col].unique())
+
+    # Add an empty line for better readability between columns
+    print()
 
