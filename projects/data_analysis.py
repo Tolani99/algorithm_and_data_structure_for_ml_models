@@ -14,9 +14,11 @@ from basic_modules import df, np
 
 # Iterate through each column in the DataFrame
 for col in df.columns:
-    # Check if the data type of the column is 'object' (typically categorical)
+    # Check if the data type of the column 
+    # is 'object' (typically categorical)
     if df[col].dtype == 'object':
-        # Fill missing values in categorical columns with the mode (most frequent value)
+        # Fill missing values in categorical columns
+        # with the mode (most frequent value)
         df[col] = df[col].fillna(df[col].mode()[0])
 
     # Check if the data type of the column is numeric
