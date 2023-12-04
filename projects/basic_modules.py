@@ -25,3 +25,6 @@ df = pd.read_csv('data_zillow.csv')
 
 # Display the first few rows
 # print(df.head())
+
+# To print the shape
+# print(df.shape)
