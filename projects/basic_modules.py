@@ -24,4 +24,4 @@ warnings.filterwarnings('ignore')
 df = pd.read_csv('data_zillow.csv')
 
 # Display the first few rows
-print(df.head())
+# print(df.head())
