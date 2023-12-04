@@ -27,7 +27,10 @@ for col in df.columns:
         to_remove.append(col)
 
 # Print the number of columns to be removed
-print(len(to_remove))
+# print(len(to_remove))
 
 # Drop columns from the DataFrame based on the to_remove list
-df.drop(to_remove, axis=1, inplace=True)
+# print(df.drop(to_remove, axis=1, inplace=True))
+
+# print the information
+print(df.info())
