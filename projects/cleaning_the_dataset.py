@@ -8,6 +8,9 @@ and it includes, outliers removal, null value imputation,
 and removing discrepancies of any sort in the data inputs.
 """
 
+# Importing data frame from basic modules
+from basic_modules import df
+
 # Initialize a list to store columns to be removed
 to_remove = []
 
@@ -26,3 +29,5 @@ for col in df.columns:
 # Print the number of columns to be removed
 print(len(to_remove))
 
+# Drop columns from the DataFrame based on the to_remove list
+df.drop(to_remove, axis=1, inplace=True)
