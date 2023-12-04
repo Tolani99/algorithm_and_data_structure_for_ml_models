@@ -1,3 +1,8 @@
+"""
+To perform the analysis and predict the house price,
+we can use Python and it's data analysis libraries such as
+pandas, numpy, matplotlib, seaborn and sklearn
+"""
 # Importing necessary libraries
 import numpy as np 
 import pandas as pd 
@@ -14,3 +19,9 @@ from sklearn.ensemble import RandomForestRegressor
 # Suppressing warnings to improve code readability
 import warnings 
 warnings.filterwarnings('ignore')
+
+# Load the data into a pandas dataframe
+df = pd.read_csv('data_zillow.csv')
+
+# Display the first few rows
+print(df.head())
