@@ -1,3 +1,6 @@
+"""
+Visualizing the distribution plot of metro district
+"""
 # Import basic modules
 from basic_modules import plt, sb, df
 
