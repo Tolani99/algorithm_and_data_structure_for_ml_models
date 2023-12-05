@@ -66,4 +66,3 @@ for col in objects:
 
     # Add an empty line for better readability between columns
     print()
-
