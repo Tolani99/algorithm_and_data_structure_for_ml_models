@@ -1,2 +1,2 @@
 This directory contains
-the code section
+only the code section
