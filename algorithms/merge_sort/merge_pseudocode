@@ -1,0 +1,12 @@
+input := an array B of distinct element
+output := sorted array B of elements in ascending order
+
+// Ignoring Base Case
+C := recursively sort  first halve of B
+D := recursively sort second halve of B
+
+return MERGE(C, D)
+
+//Here we ignore the base case
+//But if the the array contains a single element
+//It is returned as it is
