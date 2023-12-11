@@ -1,0 +1,14 @@
+//input Sorted arrays C and D of (length n/2)
+//output: Sorted array B (of length n)
+//Assumption: n is even
+
+i := 1;
+j := 1;
+
+for k:= 1 to n do
+	if C[i] < D[j]:
+		B[k]= C[i]
+		i:= i+1
+	else:
+	  	B[k] = D[j]
+		j:= j+1
